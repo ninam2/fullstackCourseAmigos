@@ -1,6 +1,6 @@
 import {useEffect, useState} from 'react'
 import {getAllStudents, removeStudent} from "./client";
-import {Avatar, Badge, Breadcrumb, Button, Empty, Layout, Menu, Popconfirm, Spin, Table, Tag,} from 'antd';
+import {Avatar, Badge, Breadcrumb, Button, Divider, Empty, Layout, Menu, Popconfirm, Spin, Table, Tag,} from 'antd';
 
 import {
     DesktopOutlined,
@@ -206,7 +206,8 @@ function App() {
                     {renderStudents()}
                 </div>
             </Content>
-            <Footer style={{textAlign: 'center'}}>By Amigoscode</Footer>
+            <Footer style={{textAlign: 'center'}}>By Amigoscode
+                <Divider>ddsfdsffsfs</Divider></Footer>
         </Layout>
     </Layout>
 }
