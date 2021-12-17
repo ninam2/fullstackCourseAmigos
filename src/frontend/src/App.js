@@ -207,7 +207,7 @@ function App() {
                 </div>
             </Content>
             <Footer style={{textAlign: 'center'}}>By Amigoscode
-                <Divider>ddsfdsffsfs</Divider></Footer>
+                <Divider>a nice divider</Divider></Footer>
         </Layout>
     </Layout>
 }
