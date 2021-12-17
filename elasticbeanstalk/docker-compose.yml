@@ -1,7 +1,7 @@
 version: "3.8"
 services:
   backend:
-    image: "ninanitzsche/springboot-react-fullstack:16.12.2021.9.29.20"
+    image: "ninanitzsche/springboot-react-fullstack:17.12.2021.7.54.27"
     ports:
       - "80:8080"
     restart: "always"
